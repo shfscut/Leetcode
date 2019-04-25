@@ -1,0 +1,13 @@
+# coding: utf-8
+# @Time: 2019-04-24 20:28
+# @Author: 'haifeng.shi@klook.com'
+
+class Solution:
+    def moveZeroes(self, nums: List[int]) -> None:
+        """
+        Do not return anything, modify nums in-place instead.
+        """
+        for i in nums:
+            if i==0:
+                nums.remove(i)
+                nums.append(0)
