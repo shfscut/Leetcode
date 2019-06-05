@@ -126,3 +126,7 @@ dmypy.json
 # 项目
 .idea/
 temo.py
+grokking/
+grokking_algorithms-master/
+.gitignore
+leet/
